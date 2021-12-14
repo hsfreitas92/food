@@ -9,7 +9,7 @@ import { FormHandles } from '@unform/core';
 interface AddFood{
   image: string;
   name: string;
-  price: string;
+  price: number;
   description: string;
 }
 
